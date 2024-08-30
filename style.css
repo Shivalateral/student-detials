@@ -1,0 +1,71 @@
+/* Basic Reset */
+* {
+    margin: 2;
+    padding: 3;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color:yellow; /* Light blue-gray */
+    color:red; /* Dark gray */
+    padding: 30px;
+}
+
+/* Container for Form */
+.container {
+    max-width: 700px; /* Increased width */
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0 0 15px blue-gray(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 20px; /* Increased space */
+    font-weight: bold;
+    font-size: 18px; /* Increased font size */
+}
+
+input[type="text"], input[type="number"] {
+    padding: 12px; /* Increased padding */
+    margin-bottom: 15px; /* Increased margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Increased font size */
+}
+
+button {
+    padding: 12px 25px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50; /* Changed to a green color */
+    color: #fff;
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Export Button */
+#exportBtn {
+    margin-top: 15px; /* Increased margin */
+    background-color: #ff9800; /* Changed to orange */
+}
+
+#exportBtn:hover {
+    background-color: #e65100; /* Darker orange on hover */
+}
+
+                
